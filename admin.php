@@ -10,7 +10,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true || $_SESSION
 $servername = "localhost";
 $db_username = "HURDOX";
 $db_password = "gokudeus2023";
-$database = "sg_omil";
+$database = "sg_omil_usuarios";
 
 $conn = new mysqli($servername, $db_username, $db_password, $database);
 
