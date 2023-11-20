@@ -100,8 +100,9 @@ $correo = $_SESSION["email"];
         <a href="reporte_visita_otec.php">Reporte de Visita a Otec</a>
         <a href="registrar_meta_anual.php">Registrar Meta Anual</a>
         <a href="registrar_avance_mensual.php">Registrar Avance Mensual</a>
-        <a href="registrar_requerimiento_capacitacion.php">Registrar Requerimiento de Capacitacion</a>
-        <a href="registrar_requerimiento_laboral.php">Registrar Requerimiento Laboral</a>
+        <a href="derivacion_capacitacion.php">Derivacion Capacitacion</a>
+        <a href="derivacion_empleo.php">Derivacion Oportunidad Laboral</a>
+        <a href="cambiar_contraseña.php">Cambiar Contraseña</a>
         <!--<a href="matricular_usuarios.php">Matricular Usuario a Capacitacion</a>-->
         <!--<a href="registrar_capacitacion.php">Registrar Usuario a Capacitacion</a>-->
         
