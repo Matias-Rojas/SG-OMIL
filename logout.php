@@ -12,6 +12,6 @@ session_destroy();
 mysqli_close($conexion);
 
 // Redirige a la página de inicio de sesión o a donde lo desees
-header('Location: login.html');
+header('Location: login.php');
 exit;
 ?>

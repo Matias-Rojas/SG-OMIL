@@ -16,8 +16,12 @@ if (isset($_GET['filename'])) {
         exit;
     } else {
         echo "El archivo no existe o no se puede leer.";
+        // Redirige a index.php
+        header("Location: ocupacionesVecinos.php");
     }
 } else {
     echo "Nombre de archivo no proporcionado.";
+    // Redirige a index.php
+    header("Location: ocupacionesVecinos.php");
 }
 ?>
